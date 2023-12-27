@@ -2,6 +2,7 @@ import React , {useState,useEffect} from 'react'
 import axios from 'axios';
 import './index.css'
 import Addtask from './Components/Addtask';
+import Todolist from './Components/Todolist';
 
 export default function App() {
   const [todolist,setTodolist]=useState([])
@@ -14,6 +15,9 @@ export default function App() {
     setTodolist([...todolist,newTask])
   }
   return (
+   <>
    <Addtask addTask={addTask} />
+   <Todolist todolist={todolist} />
+   </>
   )
 }
