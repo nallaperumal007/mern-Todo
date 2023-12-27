@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-module.exports = mongoose.connect('process.env',{
+module.exports = mongoose.connect('mongodb+srv://perumal:perumal@cluster0.empx7np.mongodb.net/tasks?retryWrites=true&w=majority',{
     useUnifiedTopology : true,
     useNewUrlParser : true,
     useFindAndModify : false
