@@ -13,7 +13,7 @@
 
 ## Demo
 
-Check out the live demo [here](https://mern-todo-sy7l-git-master-nallaperumals-projects.vercel.app/).
+Check out the live demo [here](https://mern-todo-git-master-nallaperumals-projects.vercel.app/).
 
 ## Getting Started
 
