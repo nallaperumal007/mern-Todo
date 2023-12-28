@@ -8,7 +8,7 @@ export default function Addtask(props) {
     if(task.trim() === ''){
         return 
     } else {
-        axios.post('https://todo-iea5.onrender.com/', {
+        axios.post('https://todo-iea5.onrender.com', {
             todo : task,
             isComplete : false
         }).then(res => {
